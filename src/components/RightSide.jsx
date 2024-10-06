@@ -1,11 +1,11 @@
 import { useContext } from 'react'
-import { TwitterContext } from '../App'
+import { ThemeContext } from '../App'
 
 import imgElon from '../assets/images/elon.jpg'
 import imgZuck from '../assets/images/zuck.jpg'
 
 export default function RightSide() {
-    const {theme} = useContext(TwitterContext)
+    const {theme} = useContext(ThemeContext)
 
     return (
         <aside>
